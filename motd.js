@@ -30,3 +30,4 @@ function motds() {
     var randomElement = motds[randomIndex];
     return motds[randomElement];
 }
+motds();
