@@ -1,5 +1,5 @@
 ﻿// Thanks Ash for the free code
-export default function motds() {
+function motds() {
     var motds = [
         "Owl Extraordinare",
         "What're you looking for down here?",
@@ -26,7 +26,7 @@ export default function motds() {
         "Rolled a nat 20 to load this page!",
         "You've reached the end of the MOTD list, there is no more funny here. Please, go touch grass."
     ];
-var randomIndex = Math.floor(Math.random() * motds.length); 
-var randomElement = motds[randomIndex];
-return randomElement;
+    var randomIndex = Math.floor(Math.random() * motds.length); 
+    var randomElement = motds[randomIndex];
+    return motds[randomElement];
 }
