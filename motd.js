@@ -28,7 +28,7 @@ function motds() {
     ];
     var randomIndex = Math.floor(Math.random() * motds.length); 
     var randomElement = motds[randomIndex];
-    return motds[randomElement];
+    return ("" + motds[randomElement]);
 }
 motds();
 //TEST
