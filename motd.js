@@ -31,3 +31,4 @@ function motds() {
     return motds[randomElement];
 }
 motds();
+//TEST
