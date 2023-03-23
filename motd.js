@@ -26,8 +26,8 @@ function motds() {
         "Rolled a nat 20 to load this page!",
         "You've reached the end of the MOTD list, there is no more funny here. Please, go touch grass."
     ];
-    var randomIndex = Math.floor(Math.random() * textArray.length);
-    var randomElement = textArray[randomIndex];
+    var randomIndex = Math.floor(Math.random() * motds.length); 
+    var randomElement = motds[randomIndex];
     return randomElement;
 }
 motds();
