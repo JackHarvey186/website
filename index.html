@@ -5,9 +5,11 @@
     <meta name="msapplication-TileColor" content="#00a300">
     <meta name="theme-color" content="#ffffff">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Currently under maintenance, please check back later.">
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            background-color: #333;
         }
 
         .btn {
@@ -117,7 +119,7 @@
 
             .navbar a:hover,
             .dropdown:hover .dropbtn {
-                background-color: #002049;
+                background-color: #002173;
                 color: white;
                 height: auto;
                 width: auto;
@@ -128,7 +130,7 @@
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: #333;
+            background-color: rgb(0, 50, 100);
             color: white;
             text-align: center;
         }
@@ -152,13 +154,20 @@
             color: white;
             text-align: right;
         }
+        p {
+            color:white;
+        }
+
+        h1 {
+           color:white; 
+        }
     </style>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <title> Jack's Site</title>
-</head>
+    <title>Jack's Site</title>
+  </head>
 <!--
   <header>
   <div class="navbar" id="navbarid">
@@ -166,7 +175,7 @@
     <p></p>
     <img src="JMHBannerSymb.png" alt="JHarvey.uk" style="width:256px;height:46px;" ;>
   </div>
-</header>-->
+</header> -->
 
 <body>
     <div style="margin-left:5%;padding:1px;height:1000px;">
@@ -175,10 +184,10 @@
     </div>
 </body>
 <footer>
-    <div class="footer" id="footer">
-        <script src="motd.js"></script>
-        <p>&copy; Jack Harvey 2023-2024</p>
-    </div>
+  <div class="footer" id="footer">
+    <p><i id="motd"></i></p>
+    <p>&copy; Jack Harvey 2023-2024</p>
+  </div>
 </footer>
-
+<script src="motd.js"></script>
 </html>
