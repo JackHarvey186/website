@@ -39,6 +39,7 @@
           "Error 404: MOTD not found.",
           "Oops, I forgot to make a MOTD.",
           "Thanks Ash for making this MOTD code, which I then stole.",
+          ".",
           "You've reached the end of the MOTD list, there is no more funny here. Please, go touch grass."
       ];
       var randomIndex = Math.floor(Math.random() * motds.length); 
