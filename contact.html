@@ -9,24 +9,192 @@
             font-family: Arial, Helvetica, sans-serif;
             background-color: #333;
         }
-        
-        h1 {
-           color:white; 
+
+        .btn {
+            font-family: Arial Black;
+            width: 200px;
+            height: 250px;
+            text-decoration: underline;
+            color: white;
+            border-radius: 12px;
+            padding: 10px 18px;
+            white-space: nowrap;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            background-origin: padding-box;
+            position: relative;
+            border: solid #3A3B3C;
+            margin: 7px;
+            cursor: pointer;
         }
 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li b {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                user-select: none;
+                -moz-user-select: none;
+                -khtml-user-select: none;
+                -webkit-user-select: none;
+                -o-user-select: none;
+            }
+
+        p b {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            user-select: none;
+            -moz-user-select: none;
+            -khtml-user-select: none;
+            -webkit-user-select: none;
+            -o-user-select: none;
+        }
+
+        a.contact{
+            color: white;
+        }
+
+        li a:hover {
+            background-color: #055c00;
+        }
+
+        p c {
+            display: block;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: right;
+            margin-right: 30px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #0071bc;
+            height: 75px;
+            width: 100vw;
+            left: 0;
+            border-radius: 44.5px 0 0 0;
+        }
+
+            .navbar a img {
+                height: 75px;
+                left:0;
+                background-color: #0071bc;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding:0;
+                border:0;
+                text-decoration: none;
+                justify-content: right;
+                float: left;
+            }
+
+            .navbar a2 {
+                float: right;
+                font-size: 16px;
+                color: white;
+                text-align: right;
+                padding: 28px 16px;
+                text-decoration: none;
+            }
+
+            .navbar a.clickables{
+                float: right;
+                font-size: 16px;
+                color: white;
+                text-align: right;
+                padding: 28px 16px;
+            }
+
+            .navbar a:hover,
+            .dropdown:hover .dropbtn {
+                background-color: #0071bc;
+                color: white;
+                height: auto;
+                width: auto;
+            }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100vw;
+            background-color:#003264;
+            color: white;
+            text-align: center;
+        }
+
+        .footerimg {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            background-color: transparent;
+            color: white;
+            text-align: left;
+        }
+
+        .footerimg2 {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            background-color: transparent;
+            color: white;
+            text-align: right;
+        }
         p {
             color:white;
         }
 
-        a{
-            color:white;
-            text-decoration: none;
+        h1 {
+           color:white; 
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            border: 0;
         }
 
-        a z {
-            color:#333;
-            text-decoration: dashed;
+        .logo{
+            margin: 0;
+            padding: 0;
+            border: 0;
         }
+
+        hr {
+            display: block;
+            height: 0px;
+            border: 0;
+            border: 2px solid #ffffff;
+            margin: 0;
+        }
+
+    </style>
     </style>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -36,14 +204,20 @@
   </head>
   <div class="navbar" id="navbarid">
     <a class="img" href="/"><img alt="JMH" src="JMHBannerSymb.png" width="75" height="75"></a>    <hr/>
-    <a class="clickables" href="/">Contact</a2>
-    <a class="clickables" href="/">Portfolio</a2>
-    <a class="clickables" href="/">About</a>
+    <a class="clickables" href="/contact">Contact</a>
+    <a class="clickables" href="/portfolio">Portfolio</a>
+    <a class="clickables" href="/about">About</a>
   </div>
 <body>
     <div style="margin-left:50%;padding:1px;height:500px;">
         <h1>Soon.</h1>
     </div>
-  
+    <footer>
+        <div class="footer" id="footer">
+          <p><i id="motd"></i></p>
+          <p>&copy; <a class="contact" href="/">Jack Harvey</a> 2023-2024</p>
+          <img class="footerimg2" alt="JMH LOGO" src="JMHBannerSymb.png" width="84.8" height="84.8">
+        </div>
+    </footer>
 </body>
 </html>
