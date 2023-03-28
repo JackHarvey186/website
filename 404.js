@@ -31,6 +31,7 @@ function e404() {
         "We're sorry, this page is now exclusive to the Metaverse as an NFT. (/s)",
         "It's a 404, you know what to do.",
         "GRUG SERVER SAY LINK BROKEN. GRUG SAY GO BACK. GRUG HOPE THIS NO ANNOY YOU.",
+        "This is the last 404 error in the list, sorry!",
     ];
     var randomIndex = Math.floor(Math.random() * e404s.length); 
     var randomElement = e404s[randomIndex];
