@@ -9,7 +9,7 @@ function e404() {
         "We've blown a fuse!",
         "We're sorry, but the site you requested is no longer of this reality. Please try again.",
         "This page has been taken down by request of the Time Variance Authority.",
-        "We rolled a nat 1!",
+        "We've rolled a nat 1!",
         "Landed in the snow, but there's no vole!",
         "Apologies, but due to intergalactic sanctions, this page is unavaiable in any language except Otusian.",
     ];
