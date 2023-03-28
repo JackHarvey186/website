@@ -20,5 +20,5 @@ function e404() {
 
     var e404Element = document.getElementById("404s");
     if (e404Element) {
-      motdElement.innerHTML = e404();
+      e404Element.innerHTML = e404();
     }
