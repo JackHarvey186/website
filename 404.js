@@ -30,6 +30,8 @@ function e404() {
         "Sorry, your computer does not have the required amount of beans to load this page.",
         "We're sorry, this page is now exclusive to the Metaverse as an NFT. (/s)",
         "It's a 404, you know what to do.",
+        "If it makes you happy, an alternate reality version of you accessed this page!",
+        "You didn't juju on that beat",
         "GRUG SERVER SAY LINK BROKEN. GRUG SAY GO BACK. GRUG HOPE THIS NO ANNOY YOU.",
         "This is the last 404 error in the list, sorry!",
     ];
