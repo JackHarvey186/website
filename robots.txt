@@ -1,2 +1,4 @@
 User-Agent: *
-Disallow: /618
+Disallow: /618.html
+Disallow: /downtherabbithole.html
+Disallow: /404.html
