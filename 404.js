@@ -40,6 +40,7 @@ function e404() {
         "This page may have been moved, deleted or sent to THE SHADOW REALM",
         "ayy lmao",
         "618 WAS HERE",
+        "Your packets crashed into a firewall, sorry!",
         "I wonder if anyone will just endlessly refresh to see every error... Hey! Keep refreshing!",
         "This is the last 404 error in the list, sorry!",
     ];
