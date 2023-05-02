@@ -5,4 +5,3 @@ Disallow: /contact
 Disallow: /618
 Disallow: /downtherabbithole
 Disallow: /404
-Disallow: /about
