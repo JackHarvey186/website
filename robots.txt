@@ -1,7 +1,8 @@
 User-Agent: *
-Disallow: /about.html
-Disallow: /portfolio.html
-Disallow: /contact.html
-Disallow: /618.html
-Disallow: /downtherabbithole.html
-Disallow: /404.html
+Disallow: /about
+Disallow: /portfolio
+Disallow: /contact
+Disallow: /618
+Disallow: /downtherabbithole
+Disallow: /404
+Disallow: /about
